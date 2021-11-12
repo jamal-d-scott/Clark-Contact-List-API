@@ -340,5 +340,8 @@ ASALocalRun/
 healthchecksdb
 
 **/bin
-
 **/obj
+.vs/
+ClarkCodingChallenge/obj/
+ClarkCodingChallenge.Api/obj/
+ClarkCodingChallenge.Tests/obj/

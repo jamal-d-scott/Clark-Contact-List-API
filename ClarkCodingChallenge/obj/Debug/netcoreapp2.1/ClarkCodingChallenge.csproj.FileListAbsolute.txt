@@ -41,7 +41,6 @@ H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\bin\Debug\net
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.pdb
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Views.dll
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Views.pdb
-H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.csprojAssemblyReference.cache
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.AssemblyInfoInputs.cache
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.AssemblyInfo.cs
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.csproj.CoreCompileInputs.cache
