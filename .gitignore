@@ -345,3 +345,5 @@ healthchecksdb
 ClarkCodingChallenge/obj/
 ClarkCodingChallenge.Api/obj/
 ClarkCodingChallenge.Tests/obj/
+*.cache
+.vs/ClarkCodingChallenge/v16/.suo
