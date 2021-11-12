@@ -1,0 +1,48 @@
+﻿@model ClarkCodingChallenge.Models.ContactsViewModel
+
+@{
+    ViewData["Title"] = "Contacts Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Contact List</h1>
+</div>
+
+<div class="new-contact-form">
+    <p> welcome! I'll ad stuff here later!!</p>
+</div>
+
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+        </tr>
+
+        @foreach (var contact in Model.ContactList)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m => contact.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => contact.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => contact.EmailAddress)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+<input type="button" value="Add a new contact" onclick="location.href='@Url.Action("Index", "Contacts")'" />

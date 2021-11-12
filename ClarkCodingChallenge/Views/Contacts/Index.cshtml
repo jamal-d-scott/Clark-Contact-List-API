@@ -1,0 +1,41 @@
+﻿@model ClarkCodingChallenge.Models.ContactsViewModel
+
+@{
+    ViewData["Title"] = "Contacts Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div class="new-contact-form">
+    @using (Html.BeginForm("AddNewContact", "Contacts"))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <div>
+            @Html.LabelFor(m => m.FirstName)
+            @Html.EditorFor(m => m.FirstName, new { htmlAttributes = new { @placeholder = "First Name" } })
+            <span class="form-error">@Html.ValidationMessageFor(m => m.FirstName)</span>
+        </div>
+        <br />
+        <div>
+            @Html.LabelFor(m => m.LastName)
+            @Html.EditorFor(m => m.LastName, new { htmlAttributes = new { @placeholder = "Last Name" } })
+            <span class="form-error">@Html.ValidationMessageFor(m => m.LastName)</span>
+        </div>
+        <br />
+        <div>
+            @Html.LabelFor(m => m.EmailAddress)
+            @Html.EditorFor(m => m.EmailAddress, new { htmlAttributes = new { @placeholder = "Email Address" } })
+            <span class="form-error">@Html.ValidationMessageFor(m => m.EmailAddress)</span>
+        </div>
+        <br />
+        <div>
+            <button type="submit">Submit</button>
+            <button type="button">Clear</button>
+        </div>
+    }
+</div>
+<input type="button" value="Get Mailing List" onclick="location.href='@Url.Action("GetMailingList", "Contacts")'" />
