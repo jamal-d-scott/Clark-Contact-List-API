@@ -9,20 +9,37 @@ namespace ClarkCodingChallenge.Controllers
 {
     public class ContactsController : Controller
     {
+        #region Global Variables
         private readonly IMapper _mapper;
         private IContactService _contactService;
+        #endregion
 
+        #region Constructors
+        /// <summary>
+        /// Imports a mapper and ContactService from Dependency Injection.
+        /// </summary>
+        /// <param name="contactService"></param>
+        /// <param name="mapper"></param>
         public ContactsController(IContactService contactService, IMapper mapper)
         {
             _mapper = mapper;
             _contactService = contactService;
         }
+        #endregion
 
+        #region Default View
         public IActionResult Index()
         {
             return View(new ContactsViewModel());
         }
+        #endregion
 
+        #region Form Actions
+        /// <summary>
+        /// Adds a new contact to the contacts list.
+        /// </summary>
+        /// <param name="vm">ContactsViewModel from Index.cshtml form</param>
+        /// <returns>A view</returns>
         [HttpPost]
         public async Task<IActionResult> AddNewContact(ContactsViewModel vm)
         {
@@ -47,6 +64,10 @@ namespace ClarkCodingChallenge.Controllers
             }
         }
 
+        /// <summary>
+        /// Gets a list of all contacts.
+        /// </summary>
+        /// <returns>The contact list table view</returns>
         [HttpGet]
         public async Task<IActionResult> GetMailingList()
         {
@@ -58,5 +79,6 @@ namespace ClarkCodingChallenge.Controllers
             };
             return View("ContactList", resultsVM);
         }
+        #endregion
     }
 }

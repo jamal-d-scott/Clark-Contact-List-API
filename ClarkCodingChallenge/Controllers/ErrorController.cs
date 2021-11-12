@@ -8,6 +8,10 @@ namespace ClarkCodingChallenge.Controllers
 {
     public class ErrorController : Controller
     {
+        /// <summary>
+        /// Redirects the user to an error page.
+        /// </summary>
+        /// <returns>The Error View</returns>
         public IActionResult ShowErrorPage()
         {
             return View("Error");
