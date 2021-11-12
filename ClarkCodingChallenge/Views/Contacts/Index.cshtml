@@ -5,37 +5,41 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">New Contact</h1>
 </div>
-
+<br />
 <div class="new-contact-form">
-    @using (Html.BeginForm("AddNewContact", "Contacts"))
-    {
-        @Html.AntiForgeryToken()
-        @Html.ValidationSummary(true)
+    <div class="form-controls">
+        @using (Html.BeginForm("AddNewContact", "Contacts"))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
 
-        <div>
-            @Html.LabelFor(m => m.FirstName)
-            @Html.EditorFor(m => m.FirstName, new { htmlAttributes = new { @placeholder = "First Name" } })
-            <span class="form-error">@Html.ValidationMessageFor(m => m.FirstName)</span>
-        </div>
-        <br />
-        <div>
-            @Html.LabelFor(m => m.LastName)
-            @Html.EditorFor(m => m.LastName, new { htmlAttributes = new { @placeholder = "Last Name" } })
-            <span class="form-error">@Html.ValidationMessageFor(m => m.LastName)</span>
-        </div>
-        <br />
-        <div>
-            @Html.LabelFor(m => m.EmailAddress)
-            @Html.EditorFor(m => m.EmailAddress, new { htmlAttributes = new { @placeholder = "Email Address" } })
-            <span class="form-error">@Html.ValidationMessageFor(m => m.EmailAddress)</span>
-        </div>
-        <br />
-        <div>
-            <button type="submit">Submit</button>
-            <button type="button">Clear</button>
-        </div>
-    }
+            <div>
+                @Html.LabelFor(m => m.FirstName)
+                @Html.EditorFor(m => m.FirstName, new { htmlAttributes = new { @class = "form-textbox-wide", @id = "txtFirstName", @placeholder = "First Name" } })
+                <span class="form-error">@Html.ValidationMessageFor(m => m.FirstName)</span>
+            </div>
+            <br />
+            <div>
+                @Html.LabelFor(m => m.LastName)
+                @Html.EditorFor(m => m.LastName, new { htmlAttributes = new { @class = "form-textbox-wide", @id = "txtLastName", @placeholder = "Last Name" } })
+                <span class="form-error">@Html.ValidationMessageFor(m => m.LastName)</span>
+            </div>
+            <br />
+            <div>
+                @Html.LabelFor(m => m.EmailAddress)
+                @Html.EditorFor(m => m.EmailAddress, new { htmlAttributes = new { @class = "form-textbox-wide", @id = "txtEmailAddress", @placeholder = "Email Address" } })
+                <span class="form-error">@Html.ValidationMessageFor(m => m.EmailAddress)</span>
+            </div>
+            <br />
+            <div class="form-button-group">
+                <button type="submit" class="form-button submit-Button">Submit</button>
+                <button type="button" class="form-button" onclick="ClearFormData()">Clear</button>
+            </div>
+        }
+    </div>
 </div>
-<input type="button" value="Get Mailing List" onclick="location.href='@Url.Action("GetMailingList", "Contacts")'" />
+<div class="new-contact-form-links">
+    @Html.ActionLink("View Contact List Page", "GetMailingList", "Contacts")
+</div>

@@ -18,22 +18,63 @@ html {
   }
 }
 
-.form-error{
+.form-controls {
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.form-button {
+    width: 40%;
+}
+
+.form-button-group{
+    position: relative;
+    padding-left: 20%;
+}
+
+.submit-Button{
+    color:white;
+    background-color: green;
+}
+
+.form-textbox-wide {
+    width: 95%;
+}
+
+.form-error {
     color: red;
 }
 
-.site-header {
-    background-color: green;
+.contact-page-link {
+    left: 80%;
+    position: relative;
 }
 
 input, label {
     display: block;
 }
 
-.new-contact-form{
+.centered-content {
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.new-contact-form {
     color: black;
-    background-color: lightgray;
-    width: 50%;
+    background-color: #e5e5e5;
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+}
+
+.new-contact-form-links {
+    padding: 10px;
+    margin: auto;
+    width: 70%;
 }
 
 .border-top {

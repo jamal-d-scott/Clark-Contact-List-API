@@ -28,10 +28,10 @@ namespace ClarkCodingChallenge.Api.Controllers
          * GET api/Contacts/"Example"
          * GET api/Contacts/true
          */
-        [HttpGet("{lastName?}/{true?}")]
+        [HttpGet("{lastName?}/{order?}")]
         public ActionResult<List<Contact>> GetMailingList(string lastName = "", bool? order = null)
         {
-            return _contactService.GetMailingList(lastName, order);
+            return _contactService.GetMailingList(lastName,order);
         }
 
         // POST api/Contacts
