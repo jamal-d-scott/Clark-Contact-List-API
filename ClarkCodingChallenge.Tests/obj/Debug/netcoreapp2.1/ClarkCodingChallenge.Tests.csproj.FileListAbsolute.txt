@@ -21,14 +21,14 @@ H:\Visual Studio Projects\ClarkCodingChallenge.Tests\obj\Debug\netcoreapp2.1\Cla
 H:\Visual Studio Projects\ClarkCodingChallenge.Tests\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Tests.dll
 H:\Visual Studio Projects\ClarkCodingChallenge.Tests\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Tests.pdb
 H:\Visual Studio Projects\ClarkCodingChallenge.Tests\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Tests.genruntimeconfig.cache
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Views.dll
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Views.pdb
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\appsettings.Development.json
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\appsettings.json
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Views.dll
-H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Views.pdb
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Tests.deps.json
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Tests.runtimeconfig.json
 H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Tests\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Tests.runtimeconfig.dev.json
