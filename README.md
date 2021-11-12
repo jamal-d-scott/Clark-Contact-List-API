@@ -1,2 +1,2 @@
 # Clark-Contact-List-API
-Clark Associates Coding Challenge 
+Clark Associates Coding Challenge. 
