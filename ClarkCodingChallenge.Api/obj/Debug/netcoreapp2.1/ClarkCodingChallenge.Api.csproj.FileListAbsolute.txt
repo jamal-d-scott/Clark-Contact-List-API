@@ -16,3 +16,21 @@ H:\Visual Studio Projects\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\Clark
 H:\Visual Studio Projects\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.dll
 H:\Visual Studio Projects\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.pdb
 H:\Visual Studio Projects\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.genruntimeconfig.cache
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\appsettings.Development.json
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\appsettings.json
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.deps.json
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.runtimeconfig.json
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.runtimeconfig.dev.json
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.dll
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\bin\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.pdb
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.csprojAssemblyReference.cache
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.AssemblyInfoInputs.cache
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.AssemblyInfo.cs
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.csproj.CoreCompileInputs.cache
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.RazorAssemblyInfo.cache
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.RazorAssemblyInfo.cs
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.RazorTargetAssemblyInfo.cache
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.dll
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.pdb
+H:\GitHub Repositories\Clark-Contact-List-API\ClarkCodingChallenge.Api\obj\Debug\netcoreapp2.1\ClarkCodingChallenge.Api.genruntimeconfig.cache
